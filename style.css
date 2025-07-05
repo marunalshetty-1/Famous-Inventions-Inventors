@@ -1,0 +1,52 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f2c6;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #1a237e;
+}
+
+.invention-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.invention {
+  background: #f2f2ff;
+  padding: 20px;
+  border: 2px solid #d1d5f0;
+  text-align: center;
+}
+
+ img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.invention h2 {
+  font-size: 1.4em;
+  margin: 0;
+  color: #333;
+}
+
+.invention p {
+  margin: 10px 0;
+  font-size: 0.95em;
+  color: #444;
+}
